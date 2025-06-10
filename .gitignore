@@ -1,0 +1,35 @@
+# Ignore virtual environments
+venv/
+testenv/
+
+# Ignore system files
+*.lnk
+*.dat
+*.ini
+*.blf
+*.regtrans-ms
+
+# Ignore common folders
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Ignore other project folders you don't want here
+../time_series_app/
+../../../Downloads/
+../../../Favorites/
+../../../OneDrive/
+../../../Saved Games/
+../../../Searches/
+../../../Tracing/
+../../../IntelGraphicsProfiles/
+../../../crypto_tracker/
+../../../smart_summary_hub/
+../../../task-manager-app/
+
+# Ignore any stray scripts or CSVs
+../../../price_data.csv
+../../../price_fetcher.py
+../../../price_tracker.py
+../../../requirements.txt
+../../../app.py
